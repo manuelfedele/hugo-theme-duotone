@@ -40,7 +40,7 @@ You can install this theme by followin Hugo official documentation. These steps 
 ```
 
 Produces this:
-![Terminal Emulator](https://github.com/manuelfedele/hugo-theme-duotone/blob/master/images/terminalemulator.png?raw=true)  
+![Terminal Emulator](https://github.com/manuelfedele/hugo-theme-duotone/blob/master/images/terminalemulator.gif?raw=true)  
 
 
 #### If you want to support my efforts, you can
