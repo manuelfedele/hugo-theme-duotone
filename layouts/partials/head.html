@@ -10,4 +10,5 @@
     <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.Description }}{{ else }}{{ .Summary | plainify }}{{ end }}" />
     {{ $style := resources.Get "sass/style.scss" | toCSS | minify }}
     <link rel="stylesheet" href="{{ $style.Permalink }}" >
+    {{ template "_internal/google_analytics_async.html" . }}
 </head>
