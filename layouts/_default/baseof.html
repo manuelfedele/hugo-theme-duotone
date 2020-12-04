@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.Language.Lang }}">
+    {{- partial "head.html" . -}}
+    <body class="blue">
+        <div class="container center headings--one-size">
+        {{- partial "header.html" . -}}
+        <div class="content">
+        {{- block "main" . }}{{- end }}
+        </div>
+        {{- partial "footer.html" . -}}
+        {{- partial "scripts.html" . -}}
+        </div>
+    </body>
+</html>

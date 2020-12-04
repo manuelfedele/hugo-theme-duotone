@@ -1,0 +1,15 @@
+:root {
+  --accent: #23b0ff;
+  --accent-rgb: 35, 176, 255;
+  // --background: hsla(var(--accent) blend(#1d1e28 98%));
+  --background: rgb(29, 33, 44);
+  --color: white;
+  --border-color: rgba(255, 255, 255, 0.1);
+
+  /* variables for js, must be the same as these in @custom-media queries */
+  --phoneWidth: (max-width: 684px);
+  --tabletWidth: (max-width: 900px);
+}
+
+$breakpoint-phone: var(--phoneWidth);
+$breakpoint-tablet: var(--tabletWidth);

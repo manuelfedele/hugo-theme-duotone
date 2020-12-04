@@ -1,0 +1,6 @@
+<!-- the termynal container -->
+{{- $id := .Get "id" | default "termynal" -}}
+
+<div id="{{$id}}" data-termynal data-ty-typeDelay="40" data-ty-lineDelay="700">
+    {{ .Inner  }}
+</div>

@@ -1,0 +1,8 @@
+<div class="post-meta">
+    {{ with .Params.Date }}
+        <span class="post-date">{{ . }}</span>
+    {{ end }}
+    {{ with .Params.Author }}
+        <span class="post-author">| {{ . }}</span>
+    {{ end }}
+</div>

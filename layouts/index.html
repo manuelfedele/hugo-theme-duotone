@@ -1,0 +1,14 @@
+{{ define "main" }}
+    {{ if .Content }}
+        <div class="index-content framed">
+        {{ .Content }}
+        </div>
+    {{ end }}
+    <div class="posts">
+    {{ $paginator := .Paginate (where .Site.RegularPages.ByPublishDate.Reverse "Type" "posts") 5 }}
+    {{ range $paginator.Pages }}
+        {{ partial "post_on_list.html" . }}
+    {{ end }}
+    {{ partial "pagination.html" . }}
+    </div>
+{{ end }}

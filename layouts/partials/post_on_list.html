@@ -1,0 +1,8 @@
+<div class="post on-list">
+    <h1 class="post-title"><a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+    {{ partial "post_meta.html" . }}
+    <div class="post-content">
+        {{ .Summary }}
+        {{ partial "read_more.html" . }}
+    </div>
+</div>

@@ -1,0 +1,4 @@
+{{ $prism := resources.Get "js/prism.js" | minify }}
+
+<script src="{{ $prism.Permalink }}"></script>
+

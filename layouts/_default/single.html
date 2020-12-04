@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+<div class="post">
+
+<h1 class="post-title">{{ .Title }}</h1>
+{{ partial "post_meta.html" . }}
+<div class="post-content">
+    {{ .Content }}
+</div>
+    {{ partial "pagination_single.html" . }}
+</div>
+{{ $termynal := resources.Get "js/termynal.js" | minify }}
+<script src="{{ $termynal.Permalink }}" data-termynal-container="#termynal"></script>
+
+{{ end }}
