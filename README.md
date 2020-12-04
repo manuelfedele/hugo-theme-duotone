@@ -1,4 +1,4 @@
-#### This is a Hugo theme
+# This is Hugo Theme Duotone
 
 ![Duotone](https://github.com/manuelfedele/hugo-theme-duotone/blob/master/images/duotoneshowcase.gif?raw=true)  
   
