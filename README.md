@@ -42,4 +42,6 @@ You can install this theme by followin Hugo official documentation. These steps 
 Produces this:
 ![Terminal Emulator](https://github.com/manuelfedele/hugo-theme-duotone/blob/master/images/terminalemulator.png?raw=true)  
 
+
+#### If you want to support my efforts, you can
 <a href="https://www.buymeacoffee.com/manuelfedele"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a beer&emoji=🍺&slug=manuelfedele&button_colour=5F7FFF&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00"></a>  
