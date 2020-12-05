@@ -6,7 +6,7 @@
 ### Install
 
 
-You can install this theme by followin Hugo official documentation. These steps comes from tere.
+You can install this theme by following Hugo's official documentation. These steps comes from there.
 
 
 #### If you don't have a Hugo website
